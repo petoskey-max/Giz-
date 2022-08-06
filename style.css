@@ -1,0 +1,127 @@
+/* Google Fonts */
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Rubik Bubbles', cursive; */
+
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: solid;
+    font-size: 100px;
+}
+
+
+
+
+.header{
+    background-image: url(../images/migration\ \(2\).jpg);
+    min-height: 750px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rubik Bubbles', cursive;
+    
+}
+nav{
+    background-color: grey;
+}
+
+.navbar .navbar-nav>li>a,
+.navbar .navbar-nav>.active>a{
+    color:solid wheat !important;
+    font-family: 'Bebas Neue', cursive;
+    font-size: medium;
+}
+
+
+.navbar .navbar-nav>li>a:hover,
+.navbar .navbar-nav>li>a:focus,
+.navbar .navbar-nav>.active>a:hover,
+.navbar .navbar-nav>.active>a:focus{
+    color:black !important;
+}
+.navbar .navbar-nav>li>a.active{
+    color:black !important;
+}
+.goose{
+    background-color: wheat;
+    font-family: 'Rubik Bubbles', cursive;
+    
+}
+.do > p::first-letter{
+    font-size: 300px;
+
+}
+.happy{
+    background-image: url(../images/foot.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 350px;
+    font-family: 'Rubik Bubbles', cursive;
+    
+}
+.gold{
+    background-color: rgb(199, 199, 51);
+    height: 50px;
+}
+.hate{
+    background-color: rgb(186, 248, 186);
+}
+
+
+.log>img{
+    width: 100%;
+    height: 500px;
+}
+.cure{
+    background-image: url(../images/care.jpg);
+    width: 100%;
+    min-height: 350px;
+    background-size: cover;
+
+}
+.green{
+    background-color: rgb(5, 61, 5);
+    height: 100px;
+}
+
+.know{
+    background-image: url(../images/migration\ \(1\).jpg);
+    width: auto;
+    background-size: cover;
+
+}
+
+.cook{
+    background-color: rgb(92, 134, 92);
+}
+
+input[type="email"]{
+    background: none;
+    border: 0;
+    border-bottom: 2px solid wheat ;
+    box-shadow: none;
+}
+input[type="email"]:focus{
+    background: none;
+    border: 0;
+    border-bottom: 2px solid wheat ;
+    box-shadow: none;
+}
+.shine{
+    background-image:url(../images/passport.jpg) ;
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #0d98ba;
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+    justify-content: space-evenly;
+}   
